@@ -1,0 +1,69 @@
+
+.container{
+
+width: 480px;
+background-color: rgb(225, 224, 250);
+border-radius:10px;
+
+}
+input{
+    
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 10px;
+    border-color: whitesmoke;
+
+}
+
+ul,li{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.list{
+    margin: 15px 0;
+}
+.list >li{
+    background-color: cornsilk;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.btn >button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+.container >h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
